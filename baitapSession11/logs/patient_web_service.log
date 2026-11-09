@@ -1,0 +1,426 @@
+2026-11-10T00:03:20.546+07:00  INFO 12568 --- [baitapSession11] [main] c.e.b.BaitapSession11Application         : Starting BaitapSession11Application v0.0.1-SNAPSHOT using Java 21 with PID 12568 (D:\Code\Springboot\.codex-backups\session11-build\libs\baitapSession11-0.0.1-SNAPSHOT.jar started by Truong Van Thuan in D:\Code\Springboot\baitapSession11)
+2026-11-10T00:03:20.589+07:00  INFO 12568 --- [baitapSession11] [main] c.e.b.BaitapSession11Application         : No active profile set, falling back to 1 default profile: "default"
+2026-11-10T00:03:20.897+07:00 DEBUG 12568 --- [baitapSession11] [background-preinit] o.h.v.i.xml.config.ValidationXmlParser   : Trying to load META-INF/validation.xml for XML based Validator configuration.
+2026-11-10T00:03:20.951+07:00 DEBUG 12568 --- [baitapSession11] [background-preinit] o.h.v.i.xml.config.ResourceLoaderHelper  : Trying to load META-INF/validation.xml via TCCL
+2026-11-10T00:03:20.959+07:00 DEBUG 12568 --- [baitapSession11] [background-preinit] o.h.v.i.xml.config.ResourceLoaderHelper  : Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2026-11-10T00:03:20.960+07:00 DEBUG 12568 --- [baitapSession11] [background-preinit] o.h.v.i.xml.config.ValidationXmlParser   : No META-INF/validation.xml found. Using annotation based configuration only.
+2026-11-10T00:03:20.970+07:00 DEBUG 12568 --- [baitapSession11] [background-preinit] o.h.v.i.e.resolver.TraversableResolvers  : Found jakarta.persistence.Persistence on classpath containing 'getPersistenceUtil'. Assuming Jakarta Persistence environment. Trying to instantiate Jakarta Persistence aware TraversableResolver
+2026-11-10T00:03:20.971+07:00 DEBUG 12568 --- [baitapSession11] [background-preinit] o.h.v.i.e.resolver.TraversableResolvers  : Instantiated Jakarta Persistence aware TraversableResolver of type org.hibernate.validator.internal.engine.resolver.JPATraversableResolver.
+2026-11-10T00:03:21.058+07:00 DEBUG 12568 --- [baitapSession11] [background-preinit] .h.v.m.ResourceBundleMessageInterpolator : Loaded expression factory via original TCCL
+2026-11-10T00:03:21.325+07:00 DEBUG 12568 --- [baitapSession11] [background-preinit] .i.e.ValidatorFactoryConfigurationHelper : HV000252: Using org.hibernate.validator.internal.engine.DefaultPropertyNodeNameProvider as property node name provider.
+2026-11-10T00:03:21.336+07:00 DEBUG 12568 --- [baitapSession11] [background-preinit] .i.e.ValidatorFactoryConfigurationHelper : HV000234: Using org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2026-11-10T00:03:21.338+07:00 DEBUG 12568 --- [baitapSession11] [background-preinit] .i.e.ValidatorFactoryConfigurationHelper : HV000234: Using org.hibernate.validator.internal.engine.resolver.JPATraversableResolver as ValidatorFactory-scoped traversable resolver.
+2026-11-10T00:03:21.339+07:00 DEBUG 12568 --- [baitapSession11] [background-preinit] .i.e.ValidatorFactoryConfigurationHelper : HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2026-11-10T00:03:21.339+07:00 DEBUG 12568 --- [baitapSession11] [background-preinit] .i.e.ValidatorFactoryConfigurationHelper : HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2026-11-10T00:03:21.340+07:00 DEBUG 12568 --- [baitapSession11] [background-preinit] .i.e.ValidatorFactoryConfigurationHelper : HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2026-11-10T00:03:21.714+07:00  INFO 12568 --- [baitapSession11] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-11-10T00:03:21.792+07:00  INFO 12568 --- [baitapSession11] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 62 ms. Found 1 JPA repository interface.
+2026-11-10T00:03:23.700+07:00  INFO 12568 --- [baitapSession11] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 0 (http)
+2026-11-10T00:03:23.716+07:00  INFO 12568 --- [baitapSession11] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-11-10T00:03:23.718+07:00  INFO 12568 --- [baitapSession11] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-11-10T00:03:23.756+07:00  INFO 12568 --- [baitapSession11] [main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 3038 ms
+2026-11-10T00:03:24.316+07:00 DEBUG 12568 --- [baitapSession11] [main] org.hibernate.orm.jpa                    : HHH008541: PersistenceUnitInfo [
+	name: default
+	persistence provider classname: null
+	classloader: org.springframework.boot.loader.launch.LaunchedClassLoader@6193b845
+	excludeUnlistedClasses: true
+	JTA datasource: null
+	Non JTA datasource: HikariDataSource (null)
+	Transaction type: RESOURCE_LOCAL
+	PU root URL: nested:/D:/Code/Springboot/.codex-backups/session11-build/libs/baitapSession11-0.0.1-SNAPSHOT.jar/!BOOT-INF/classes/
+	Shared Cache Mode: UNSPECIFIED
+	Validation Mode: AUTO
+	Jar files URLs []
+	Managed classes names [
+		com.example.baitapsession11.model.Patient]
+	Mapping files names []
+	Properties []
+2026-11-10T00:03:24.354+07:00 DEBUG 12568 --- [baitapSession11] [main] org.hibernate.orm.service                : HHH010455: Adding integrator: org.hibernate.boot.beanvalidation.BeanValidationIntegrator
+2026-11-10T00:03:24.359+07:00 DEBUG 12568 --- [baitapSession11] [main] org.hibernate.orm.service                : HHH010455: Adding integrator: org.hibernate.cache.internal.CollectionCacheInvalidator
+2026-11-10T00:03:24.400+07:00  INFO 12568 --- [baitapSession11] [main] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.4.5.Final
+2026-11-10T00:03:24.401+07:00 DEBUG 12568 --- [baitapSession11] [main] org.hibernate.orm.core                   : HHH000206: 'hibernate.properties' not found
+2026-11-10T00:03:24.444+07:00 DEBUG 12568 --- [baitapSession11] [main] org.hibernate.orm.cache                  : HHH90001031: Cannot default RegionFactory since no RegionFactory strategies were registered
+2026-11-10T00:03:24.449+07:00 DEBUG 12568 --- [baitapSession11] [main] org.hibernate.orm.cache                  : HHH90001029: Second-level cache disabled
+2026-11-10T00:03:27.103+07:00  INFO 12568 --- [baitapSession11] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-11-10T00:03:27.230+07:00  INFO 12568 --- [baitapSession11] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-11-10T00:03:27.593+07:00  INFO 12568 --- [baitapSession11] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@1de12397
+2026-11-10T00:03:27.596+07:00  INFO 12568 --- [baitapSession11] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-11-10T00:03:27.608+07:00 DEBUG 12568 --- [baitapSession11] [main] org.hibernate.orm.jdbc                   : HHH100017: Database:
+	name: PostgreSQL
+	version: 18.4
+	major: 18
+	minor: 4
+2026-11-10T00:03:27.610+07:00 DEBUG 12568 --- [baitapSession11] [main] org.hibernate.orm.jdbc                   : HHH100018: Driver:
+	name: PostgreSQL JDBC Driver
+	version: 42.7.13
+	major: 42
+	minor: 7
+	JDBC version: 4.2
+2026-11-10T00:03:27.676+07:00 DEBUG 12568 --- [baitapSession11] [main] org.hibernate.orm.dialect                : HHH035001: Using dialect: org.hibernate.dialect.PostgreSQLDialect, version: 18.4
+2026-11-10T00:03:27.702+07:00 DEBUG 12568 --- [baitapSession11] [main] org.hibernate.orm.jdbc.lob               : HHH10010004: Disabling contextual LOB creation as Dialect reported it is not supported
+2026-11-10T00:03:27.704+07:00 DEBUG 12568 --- [baitapSession11] [main] org.hibernate.orm.jdbc                   : HHH100122: Using default JDBC fetch size: 0
+2026-11-10T00:03:27.718+07:00  INFO 12568 --- [baitapSession11] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/medical_session11]
+	Database driver: PostgreSQL JDBC Driver
+	Database dialect: PostgreSQLDialect
+	Database version: 18.4
+	Default catalog/schema: medical_session11/public
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-11-10T00:03:28.253+07:00 DEBUG 12568 --- [baitapSession11] [main] org.hibernate.orm.factory                : HHH90020001: Instantiating factory [8382e747-6b1a-48e8-a35a-863d50725c27] with settings: {hibernate.format_sql=true, java.specification.version=21, sun.cpu.isalist=amd64, hibernate.resource.beans.container=org.springframework.orm.jpa.hibernate.SpringBeanContainer@270f7b4d, hibernate.connection.handling_mode=DELAYED_ACQUISITION_AND_HOLD, sun.jnu.encoding=Cp1258, hibernate.implicit_naming_strategy=org.springframework.boot.hibernate.SpringImplicitNamingStrategy, java.class.path=D:\Code\Springboot\.codex-backups\session11-build\libs\baitapSession11-0.0.1-SNAPSHOT.jar, LOGBACK_ROLLINGPOLICY_MAX_FILE_SIZE=2097152, LOGBACK_ROLLINGPOLICY_FILE_NAME_PATTERN=logs/patient_web_service.log.%d{yyyy-MM-dd}.%i.gz, java.vm.vendor=Oracle Corporation, sun.arch.data.model=64, user.variant=, java.vendor.url=https://java.oracle.com/, catalina.useNaming=false, user.timezone=Asia/Saigon, jakarta.persistence.sharedCache.mode=UNSPECIFIED, org.jboss.logging.provider=slf4j, java.vm.specification.version=21, os.name=Windows 11, APPLICATION_NAME=baitapSession11, jakarta.persistence.nonJtaDataSource=HikariDataSource (HikariPool-1), sun.java.launcher=SUN_STANDARD, user.country=US, sun.boot.library.path=C:\Program Files\Java\jdk-21\bin, sun.java.command=D:\Code\Springboot\.codex-backups\session11-build\libs\baitapSession11-0.0.1-SNAPSHOT.jar --server.port=0 --server.address=127.0.0.1, javax.persistence.nonJtaDataSource=HikariDataSource (HikariPool-1), jdk.debug=release, sun.cpu.endian=little, hibernate.cdi.extensions=true, user.home=C:\Users\acquy, user.language=en, java.specification.vendor=Oracle Corporation, java.version.date=2023-09-19, java.home=C:\Program Files\Java\jdk-21, file.separator=\, java.vm.compressedOopsMode=Zero based, line.separator=
+, hibernate.persistenceUnitName=default, java.vm.specification.vendor=Oracle Corporation, java.specification.name=Java Platform API Specification, FILE_LOG_CHARSET=UTF-8, hibernate.transaction.coordinator_class=class org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorBuilderImpl, java.awt.headless=true, jakarta.persistence.validation.mode=AUTO, hibernate.hbm2ddl.auto=update, user.script=, java.protocol.handler.pkgs=org.springframework.boot.loader.net.protocol, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, java.runtime.version=21+35-LTS-2513, user.name=Truong Van Thuan, stdout.encoding=Cp1258, path.separator=;, os.version=10.0, java.runtime.name=Java(TM) SE Runtime Environment, file.encoding=UTF-8, java.vm.name=Java HotSpot(TM) 64-Bit Server VM, LOG_FILE=logs/patient_web_service.log, java.vendor.url.bug=https://bugreport.java.com/bugreport/, java.io.tmpdir=C:\Users\acquy\AppData\Local\Temp\, catalina.home=C:\Users\acquy\AppData\Local\Temp\tomcat.0.2241112450279187353, java.version=21, LOGBACK_ROLLINGPOLICY_CLEAN_HISTORY_ON_START=true, hibernate.physical_naming_strategy=org.hibernate.boot.model.naming.PhysicalNamingStrategySnakeCaseImpl, user.dir=D:\Code\Springboot\baitapSession11, os.arch=amd64, java.vm.specification.name=Java Virtual Machine Specification, PID=12568, sun.os.patch.level=, CONSOLE_LOG_CHARSET=UTF-8, LOGBACK_ROLLINGPOLICY_MAX_HISTORY=7, catalina.base=C:\Users\acquy\AppData\Local\Temp\tomcat.0.2241112450279187353, hibernate.boot.CfgXmlAccessService.key=org.hibernate.boot.registry.StandardServiceRegistryBuilder$1@56b704ea, native.encoding=Cp1258, java.library.path=C:\Program Files\Java\jdk-21\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Users\acquy\.cache\codex-runtimes\codex-primary-runtime\dependencies\native\powershell;C:\Users\acquy\.codex\tmp\arg0-windows\codex-arg0FPDo3G;C:\Users\acquy\.cache\codex-runtimes\codex-primary-runtime\dependencies\native\libheif\libheif\bin;C:\Users\acquy\.cache\codex-runtimes\codex-primary-runtime\dependencies\native\jxrlib\jxrlib\bin;C:\Users\acquy\.cache\codex-runtimes\codex-primary-runtime\dependencies\native\poppler\Library\bin;C:\Users\acquy\.cache\codex-runtimes\codex-primary-runtime\dependencies\bin\override;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files\Microsoft\jdk-11.0.16.101-hotspot\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\xampp\php;C:\composer;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\dotnet\;C:\Program Files (x86)\Microsoft SQL Server\160\DTS\Binn\;C:\Program Files\Azure Data Studio\bin;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Program Files\Cloudflare\Cloudflare WARP\;C:\Users\acquy\.cache\codex-runtimes\codex-primary-runtime\dependencies\native\powershell;C:\Users\acquy\AppData\Local\Microsoft\WindowsApps;C:\Users\acquy\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\acquy\AppData\Roaming\Composer\vendor\bin;C:\Users\acquy\.dotnet\tools;C:\Users\acquy\AppData\Roaming\npm;C:\Program Files\JetBrains\PyCharm Community Edition 2021.3.3\bin;C:\Program Files\JetBrains\IntelliJ IDEA 2023.2\bin;C:\Users\acquy\AppData\Local\Microsoft\WindowsApps;C:\Users\acquy\.cache\codex-runtimes\codex-primary-runtime\dependencies\bin\fallback;C:\Users\acquy\.cache\codex-runtimes\codex-primary-runtime\dependencies\node\bin;C:\Users\acquy\.cache\codex-runtimes\codex-primary-runtime\dependencies\native\git\cmd;C:\Users\acquy\AppData\Local\OpenAI\Codex\bin\8dbccda2214d0643;C:\Users\acquy\AppData\Local\OpenAI\Codex\bin\f71a721e0e6193a9;., stderr.encoding=Cp1258, java.vendor=Oracle Corporation, java.vm.info=mixed mode, sharing, java.vm.version=21+35-LTS-2513, sun.io.unicode.encoding=UnicodeLittle, hibernate.archive.scanner=org.hibernate.boot.archive.scan.internal.DisabledScanner, hibernate.connection.datasource=HikariDataSource (HikariPool-1), java.class.version=65.0, LOGGED_APPLICATION_NAME=[baitapSession11] }
+2026-11-10T00:03:28.269+07:00 DEBUG 12568 --- [baitapSession11] [main] o.h.v.i.xml.config.ValidationXmlParser   : Trying to load META-INF/validation.xml for XML based Validator configuration.
+2026-11-10T00:03:28.269+07:00 DEBUG 12568 --- [baitapSession11] [main] o.h.v.i.xml.config.ResourceLoaderHelper  : Trying to load META-INF/validation.xml via TCCL
+2026-11-10T00:03:28.270+07:00 DEBUG 12568 --- [baitapSession11] [main] o.h.v.i.xml.config.ResourceLoaderHelper  : Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2026-11-10T00:03:28.270+07:00 DEBUG 12568 --- [baitapSession11] [main] o.h.v.i.xml.config.ValidationXmlParser   : No META-INF/validation.xml found. Using annotation based configuration only.
+2026-11-10T00:03:28.271+07:00 DEBUG 12568 --- [baitapSession11] [main] o.h.v.i.e.resolver.TraversableResolvers  : Found jakarta.persistence.Persistence on classpath containing 'getPersistenceUtil'. Assuming Jakarta Persistence environment. Trying to instantiate Jakarta Persistence aware TraversableResolver
+2026-11-10T00:03:28.271+07:00 DEBUG 12568 --- [baitapSession11] [main] o.h.v.i.e.resolver.TraversableResolvers  : Instantiated Jakarta Persistence aware TraversableResolver of type org.hibernate.validator.internal.engine.resolver.JPATraversableResolver.
+2026-11-10T00:03:28.272+07:00 DEBUG 12568 --- [baitapSession11] [main] .h.v.m.ResourceBundleMessageInterpolator : Loaded expression factory via original TCCL
+2026-11-10T00:03:28.273+07:00 DEBUG 12568 --- [baitapSession11] [main] .i.e.ValidatorFactoryConfigurationHelper : HV000252: Using org.hibernate.validator.internal.engine.DefaultPropertyNodeNameProvider as property node name provider.
+2026-11-10T00:03:28.274+07:00 DEBUG 12568 --- [baitapSession11] [main] .i.e.ValidatorFactoryConfigurationHelper : HV000234: Using org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2026-11-10T00:03:28.275+07:00 DEBUG 12568 --- [baitapSession11] [main] .i.e.ValidatorFactoryConfigurationHelper : HV000234: Using org.hibernate.validator.internal.engine.resolver.JPATraversableResolver as ValidatorFactory-scoped traversable resolver.
+2026-11-10T00:03:28.275+07:00 DEBUG 12568 --- [baitapSession11] [main] .i.e.ValidatorFactoryConfigurationHelper : HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2026-11-10T00:03:28.275+07:00 DEBUG 12568 --- [baitapSession11] [main] .i.e.ValidatorFactoryConfigurationHelper : HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2026-11-10T00:03:28.276+07:00 DEBUG 12568 --- [baitapSession11] [main] .i.e.ValidatorFactoryConfigurationHelper : HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2026-11-10T00:03:28.499+07:00 DEBUG 12568 --- [baitapSession11] [main] org.hibernate.HQL_FUNCTIONS              : Available HQL Functions:
+	abs(NUMERIC arg)
+	Double acos(NUMERIC arg)
+	Double acosh(NUMERIC arg)
+	Boolean any(BOOLEAN predicate)
+	array( ... )
+	array_agg(arg)
+	array_append( ... )
+	array_concat( ... )
+	Boolean array_contains(ARRAY haystackArray, OBJECT needleElementOrArray)
+	Boolean array_contains_nullable(ARRAY haystackArray, OBJECT needleElementOrArray)
+	array_fill(OBJECT element, INTEGER elementCount)
+	array_fill_list(OBJECT element, INTEGER elementCount)
+	array_get( ... )
+	Boolean array_includes(ARRAY haystackArray, OBJECT needleArray)
+	Boolean array_includes_nullable(ARRAY haystackArray, OBJECT needleArray)
+	Boolean array_intersects(ARRAY array0, OBJECT array1)
+	Boolean array_intersects_nullable(ARRAY array0, OBJECT array1)
+	Integer array_length(ARRAY array)
+	array_list( ... )
+	Boolean array_overlaps(ARRAY array0, OBJECT array1)
+	Boolean array_overlaps_nullable(ARRAY array0, OBJECT array1)
+	Integer array_position(ARRAY array, OBJECT element[, INTEGER startPosition])
+	int[] array_positions(ARRAY array, OBJECT element)
+	List array_positions_list(ARRAY array, OBJECT element)
+	array_prepend( ... )
+	array_remove( ... )
+	array_remove_index( ... )
+	array_replace(ARRAY array, OBJECT old, OBJECT new)
+	array_reverse(ARRAY array)
+	array_set( ... )
+	array_slice(ARRAY array, INTEGER start, INTEGER end)
+	array_sort(ARRAY array[, boolean descending[, boolean nulls_first]])
+	String array_to_string( ... )
+	array_trim(ARRAY array, INTEGER elementsToRemove)
+	Integer ascii(STRING arg)
+	Double asin(NUMERIC arg)
+	Double asinh(NUMERIC arg)
+	Double atan(NUMERIC arg)
+	Double atan2(NUMERIC arg0, NUMERIC arg1)
+	Double atanh(NUMERIC arg)
+	avg(arg)
+	bit_and(arg)
+	Integer bit_length(STRING_OR_CLOB arg)
+	bit_or(arg)
+	bitand(arg0, arg1)
+	bitnot(arg)
+	bitor(arg0, arg1)
+	bitxor(arg0, arg1)
+	Boolean bool_and(BOOLEAN predicate)
+	Boolean bool_or(BOOLEAN predicate)
+	cast(arg as Type)
+	Double cbrt(NUMERIC arg)
+	ceiling(NUMERIC arg)
+	Object changesetid(arg)
+	Character char(INTEGER arg)
+	Integer character_length(STRING_OR_CLOB arg)
+	Character chr(INTEGER arg)
+	coalesce(arg0[, arg1[, ...]])
+	String collate(STRING string as COLLATION collation)
+	(STRING string0[, STRING string1[, ...]])
+	Double corr(NUMERIC arg0, NUMERIC arg1)
+	Double cos(NUMERIC arg)
+	Double cosh(NUMERIC arg)
+	Double cot(NUMERIC arg)
+	Long count([distinct ]{arg|*})
+	Double covar_pop(NUMERIC arg0, NUMERIC arg1)
+	Double covar_samp(NUMERIC arg0, NUMERIC arg1)
+	Double cume_dist([arg0[, ...]])
+	Date current date
+	Date current time
+	Date current timestamp
+	Date current_date
+	Instant current_instant
+	Date current_time
+	Date current_timestamp
+	date_trunc(STRING field, TEMPORAL datetime)
+	dateadd(TEMPORAL_UNIT field, INTEGER magnitude, TEMPORAL datetime)
+	Long|Double datediff(TEMPORAL_UNIT field, TEMPORAL start, TEMPORAL end)
+	Double degrees(NUMERIC arg)
+	Long dense_rank([arg0[, ...]])
+	Boolean every(BOOLEAN predicate)
+	Double exp(NUMERIC arg)
+	extract(TEMPORAL_UNIT field from TEMPORAL arg)
+	first_valueANY value
+	floor(NUMERIC arg)
+	String format(TEMPORAL datetime as STRING pattern)
+	greatest(COMPARABLE arg0, COMPARABLE arg1[, arg2[, ...]])
+	String hex(arg)
+	ifnull(arg0, arg1)
+	String initcap(arg)
+	String insert(STRING string, INTEGER start, INTEGER length, STRING replacement)
+	Instant instant
+	String json_array([arg0[, ...]])
+	String json_array_append(IMPLICIT_JSON arg0, STRING arg1, ANY arg2)
+	String json_array_insert(IMPLICIT_JSON arg0, STRING arg1, ANY arg2)
+	String json_arrayagg(arg0[, arg1])
+	Boolean json_exists(IMPLICIT_JSON arg0, STRING arg1)
+	String json_insert(IMPLICIT_JSON arg0, STRING arg1, ANY arg2)
+	String json_mergepatch(IMPLICIT_JSON arg0, IMPLICIT_JSON arg1[, arg2[, ...]])
+	String json_object( ... )
+	String json_objectagg(arg0, arg1[, arg2, arg3])
+	String json_query( ... )
+	String json_remove(IMPLICIT_JSON arg0, STRING arg1)
+	String json_replace(IMPLICIT_JSON arg0, STRING arg1, ANY arg2)
+	String json_set(IMPLICIT_JSON arg0, STRING arg1, ANY arg2)
+	json_value( ... )
+	lagANY value[, INTEGER offset[, ANY default]]
+	last_valueANY value
+	leadANY value[, INTEGER offset[, ANY default]]
+	least(COMPARABLE arg0, COMPARABLE arg1[, arg2[, ...]])
+	String left(STRING string, INTEGER length)
+	length
+	String listagg(STRING arg0, STRING arg1)
+	Double ln(NUMERIC arg)
+	LocalDate local date
+	LocalDateTime local datetime
+	LocalTime local time
+	LocalDate local_date
+	LocalDateTime local_datetime
+	LocalTime local_time
+	Date localtime
+	Date localtimestamp
+	Integer locate(STRING pattern, STRING string[, INTEGER start])
+	Double log(NUMERIC arg0[, NUMERIC arg1])
+	Double log10(NUMERIC arg)
+	String lower(STRING string)
+	String lpad(STRING string, INTEGER length[, STRING padding])
+	String ltrim(STRING string[, STRING characters])
+	Date make_date(INTEGER arg0, INTEGER arg1, INTEGER arg2)
+	Date make_time(INTEGER arg0, INTEGER arg1, INTEGER arg2)
+	Date make_timestamp(INTEGER arg0, INTEGER arg1, INTEGER arg2, INTEGER arg3, INTEGER arg4, INTEGER arg5)
+	Date make_timestamptz(INTEGER arg0, INTEGER arg1, INTEGER arg2, INTEGER arg3, INTEGER arg4, INTEGER arg5[, INTEGER arg6])
+	max(COMPARABLE arg)
+	byte[] md5(arg)
+	Double median(NUMERIC arg)
+	min(COMPARABLE arg)
+	Integer mod(INTEGER arg0, INTEGER arg1)
+	mode()
+	ModificationType modificationtype(arg)
+	nth_valueANY value, INTEGER nth
+	nullif(arg0, arg1)
+	Integer octet_length(STRING_OR_CLOB arg)
+	OffsetDateTime offset datetime
+	OffsetDateTime offset_datetime
+	Integer ordinal(ENUM arg)
+	String overlay(string placing replacement from start[ for length])
+	String pad(STRING string with INTEGER length {leading|trailing}[ STRING character])
+	Double percent_rank([arg0[, ...]])
+	percentile_cont(NUMERIC arg)
+	percentile_disc(NUMERIC arg)
+	Double pi
+	Integer position(STRING pattern in STRING string)
+	Double power(NUMERIC arg0, NUMERIC arg1)
+	Double radians(NUMERIC arg)
+	Long rank([arg0[, ...]])
+	(STRING string, STRING pattern[, STRING flags])
+	Double regr_avgx(NUMERIC arg0, NUMERIC arg1)
+	Double regr_avgy(NUMERIC arg0, NUMERIC arg1)
+	Double regr_count(NUMERIC arg0, NUMERIC arg1)
+	Double regr_intercept(NUMERIC arg0, NUMERIC arg1)
+	Double regr_r2(NUMERIC arg0, NUMERIC arg1)
+	Double regr_slope(NUMERIC arg0, NUMERIC arg1)
+	Double regr_sxx(NUMERIC arg0, NUMERIC arg1)
+	Double regr_sxy(NUMERIC arg0, NUMERIC arg1)
+	Double regr_syy(NUMERIC arg0, NUMERIC arg1)
+	String repeat(STRING string, INTEGER times)
+	String replace(STRING string, STRING pattern, STRING replacement)
+	String reverse(STRING arg)
+	String right(STRING string, INTEGER length)
+	round(NUMERIC number[, INTEGER places])
+	Long row_number()
+	String rpad(STRING string, INTEGER length[, STRING padding])
+	String rtrim(STRING string[, STRING characters])
+	byte[] sha(arg)
+	Integer sign(NUMERIC arg)
+	Double sin(NUMERIC arg)
+	Double sinh(NUMERIC arg)
+	String soundex(arg)
+	sql
+	Double sqrt(NUMERIC arg)
+	Double stddev(NUMERIC arg)
+	Double stddev_pop(NUMERIC arg)
+	Double stddev_samp(NUMERIC arg)
+	String str(arg)
+	String string(ENUM arg)
+	String substr(STRING string, INTEGER start[, INTEGER length])
+	String substring(STRING string{ from|,} INTEGER start[{ for|,} INTEGER length])
+	sum(arg)
+	Double tan(NUMERIC arg)
+	Double tanh(NUMERIC arg)
+	timestampadd(TEMPORAL_UNIT field, INTEGER magnitude, TEMPORAL datetime)
+	Long|Double timestampdiff(TEMPORAL_UNIT field, TEMPORAL start, TEMPORAL end)
+	String to_char(ANY arg0[, STRING arg1, STRING arg2])
+	Date to_date(STRING arg0[, STRING arg1, STRING arg2])
+	Double to_number(STRING arg0[, STRING arg1, STRING arg2])
+	Date to_timestamp(STRING arg0[, STRING arg1, STRING arg2])
+	String translate(STRING arg0, STRING arg1, STRING arg2)
+	String trim([[{leading|trailing|both} ][STRING arg0 ]from] STRING arg1)
+	trunc( ... )
+	truncate( ... )
+	String upper(STRING string)
+	Double var_pop(NUMERIC arg)
+	Double var_samp(NUMERIC arg)
+	Double variance(NUMERIC arg)
+	String xmlagg( ... )
+	String xmlcomment(STRING arg)
+	String xmlconcat( ... )
+	String xmlelement( ... )
+	Boolean xmlexists( ... )
+	String xmlforest( ... )
+	String xmlpi( ... )
+	String xmlquery( ... )
+
+2026-11-10T00:03:29.137+07:00 DEBUG 12568 --- [baitapSession11] [main] org.hibernate.orm.core                   : HHH000513: Unable to create the ReflectionOptimizer for [com.example.baitapsession11.model.Patient]: private accessor [age]
+2026-11-10T00:03:29.650+07:00  INFO 12568 --- [baitapSession11] [main] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-11-10T00:03:29.664+07:00 DEBUG 12568 --- [baitapSession11] [main] org.hibernate.orm.service                : HHH010454: EventListenerRegistry access via ServiceRegistry is deprecated - use 'sessionFactory.getEventEngine().getListenerRegistry()' instead
+2026-11-10T00:03:29.789+07:00 DEBUG 12568 --- [baitapSession11] [main] org.hibernate.mapping.Table              : No alter strings for table: patients
+2026-11-10T00:03:29.790+07:00 DEBUG 12568 --- [baitapSession11] [main] org.hibernate.orm.factoryRegistry        : HHH020384: Registering SessionFactory [8382e747-6b1a-48e8-a35a-863d50725c27] (default)
+2026-11-10T00:03:29.793+07:00  INFO 12568 --- [baitapSession11] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-11-10T00:03:29.922+07:00  INFO 12568 --- [baitapSession11] [main] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-11-10T00:03:30.072+07:00 DEBUG 12568 --- [baitapSession11] [main] org.hibernate.orm.core                   : HHH006588: Opening session [tenant=null]
+2026-11-10T00:03:30.143+07:00 DEBUG 12568 --- [baitapSession11] [main] org.hibernate.session.metrics            : HHH000401: Logging session metrics:
+	0 ns acquiring 0 JDBC connections
+	0 ns releasing 0 JDBC connections
+	0 ns preparing 0 JDBC statements
+	0 ns executing 0 JDBC statements
+	0 ns executing 0 JDBC batches
+	0 ns performing 0 second-level cache puts
+	0 ns performing 0 second-level cache hits
+	0 ns performing 0 second-level cache misses
+	0 ns executing 0 flushes (flushing a total of 0 entities and 0 collections)
+	0 ns executing 0 pre-partial-flushes
+	0 ns executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+
+2026-11-10T00:03:30.342+07:00 DEBUG 12568 --- [baitapSession11] [main] .h.v.m.ResourceBundleMessageInterpolator : Loaded expression factory via original TCCL
+2026-11-10T00:03:30.348+07:00 DEBUG 12568 --- [baitapSession11] [main] o.h.v.i.e.AbstractConfigurationImpl      : Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2026-11-10T00:03:30.349+07:00 DEBUG 12568 --- [baitapSession11] [main] o.h.v.i.e.AbstractConfigurationImpl      : Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2026-11-10T00:03:30.351+07:00 DEBUG 12568 --- [baitapSession11] [main] o.h.v.i.xml.config.ValidationXmlParser   : Trying to load META-INF/validation.xml for XML based Validator configuration.
+2026-11-10T00:03:30.351+07:00 DEBUG 12568 --- [baitapSession11] [main] o.h.v.i.xml.config.ResourceLoaderHelper  : Trying to load META-INF/validation.xml via user class loader
+2026-11-10T00:03:30.351+07:00 DEBUG 12568 --- [baitapSession11] [main] o.h.v.i.xml.config.ResourceLoaderHelper  : Trying to load META-INF/validation.xml via TCCL
+2026-11-10T00:03:30.351+07:00 DEBUG 12568 --- [baitapSession11] [main] o.h.v.i.xml.config.ResourceLoaderHelper  : Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2026-11-10T00:03:30.355+07:00 DEBUG 12568 --- [baitapSession11] [main] o.h.v.i.xml.config.ValidationXmlParser   : No META-INF/validation.xml found. Using annotation based configuration only.
+2026-11-10T00:03:30.356+07:00 DEBUG 12568 --- [baitapSession11] [main] o.h.v.i.e.resolver.TraversableResolvers  : Found jakarta.persistence.Persistence on classpath containing 'getPersistenceUtil'. Assuming Jakarta Persistence environment. Trying to instantiate Jakarta Persistence aware TraversableResolver
+2026-11-10T00:03:30.356+07:00 DEBUG 12568 --- [baitapSession11] [main] o.h.v.i.e.resolver.TraversableResolvers  : Instantiated Jakarta Persistence aware TraversableResolver of type org.hibernate.validator.internal.engine.resolver.JPATraversableResolver.
+2026-11-10T00:03:30.358+07:00 DEBUG 12568 --- [baitapSession11] [main] .i.e.ValidatorFactoryConfigurationHelper : HV000252: Using org.hibernate.validator.internal.engine.DefaultPropertyNodeNameProvider as property node name provider.
+2026-11-10T00:03:30.359+07:00 DEBUG 12568 --- [baitapSession11] [main] .i.e.ValidatorFactoryConfigurationHelper : HV000234: Using org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2026-11-10T00:03:30.361+07:00 DEBUG 12568 --- [baitapSession11] [main] .i.e.ValidatorFactoryConfigurationHelper : HV000234: Using org.hibernate.validator.internal.engine.resolver.JPATraversableResolver as ValidatorFactory-scoped traversable resolver.
+2026-11-10T00:03:30.361+07:00 DEBUG 12568 --- [baitapSession11] [main] .i.e.ValidatorFactoryConfigurationHelper : HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2026-11-10T00:03:30.363+07:00 DEBUG 12568 --- [baitapSession11] [main] .i.e.ValidatorFactoryConfigurationHelper : HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2026-11-10T00:03:30.363+07:00 DEBUG 12568 --- [baitapSession11] [main] .i.e.ValidatorFactoryConfigurationHelper : HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2026-11-10T00:03:30.991+07:00  INFO 12568 --- [baitapSession11] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 60291 (http) with context path '/'
+2026-11-10T00:03:31.009+07:00  INFO 12568 --- [baitapSession11] [main] c.e.b.BaitapSession11Application         : Started BaitapSession11Application in 11.306 seconds (process running for 12.249)
+2026-11-10T00:03:31.479+07:00  INFO 12568 --- [baitapSession11] [http-nio-127.0.0.1-auto-1-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-11-10T00:03:31.487+07:00  INFO 12568 --- [baitapSession11] [http-nio-127.0.0.1-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-11-10T00:03:31.489+07:00  INFO 12568 --- [baitapSession11] [http-nio-127.0.0.1-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2026-11-10T00:03:31.518+07:00 ERROR 12568 --- [baitapSession11] [http-nio-127.0.0.1-auto-1-exec-1] c.e.b.exception.GlobalExceptionHandler   : Lỗi hệ thống xảy ra: 
+
+java.lang.ArithmeticException: / by zero
+	at com.medical.service.PatientService.testError(PatientService.java:25) ~[!/:0.0.1-SNAPSHOT]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:359) ~[spring-aop-7.0.9.jar!/:7.0.9]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:715) ~[spring-aop-7.0.9.jar!/:7.0.9]
+	at com.medical.service.PatientService$$SpringCGLIB$$0.testError(<generated>) ~[!/:0.0.1-SNAPSHOT]
+	at com.example.baitapsession11.controller.PatientController.testError(PatientController.java:45) ~[!/:0.0.1-SNAPSHOT]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:252) ~[spring-web-7.0.9.jar!/:7.0.9]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:184) ~[spring-web-7.0.9.jar!/:7.0.9]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117) ~[spring-webmvc-7.0.9.jar!/:7.0.9]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:934) ~[spring-webmvc-7.0.9.jar!/:7.0.9]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:853) ~[spring-webmvc-7.0.9.jar!/:7.0.9]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:86) ~[spring-webmvc-7.0.9.jar!/:7.0.9]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:963) ~[spring-webmvc-7.0.9.jar!/:7.0.9]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:866) ~[spring-webmvc-7.0.9.jar!/:7.0.9]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1000) ~[spring-webmvc-7.0.9.jar!/:7.0.9]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:892) ~[spring-webmvc-7.0.9.jar!/:7.0.9]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:622) ~[tomcat-embed-core-11.0.24.jar!/:na]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:874) ~[spring-webmvc-7.0.9.jar!/:7.0.9]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:710) ~[tomcat-embed-core-11.0.24.jar!/:na]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:132) ~[tomcat-embed-core-11.0.24.jar!/:na]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:59) ~[tomcat-embed-websocket-11.0.24.jar!/:na]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:111) ~[tomcat-embed-core-11.0.24.jar!/:na]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-7.0.9.jar!/:7.0.9]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-7.0.9.jar!/:7.0.9]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:111) ~[tomcat-embed-core-11.0.24.jar!/:na]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-7.0.9.jar!/:7.0.9]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-7.0.9.jar!/:7.0.9]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:111) ~[tomcat-embed-core-11.0.24.jar!/:na]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:199) ~[spring-web-7.0.9.jar!/:7.0.9]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-7.0.9.jar!/:7.0.9]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:111) ~[tomcat-embed-core-11.0.24.jar!/:na]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165) ~[tomcat-embed-core-11.0.24.jar!/:na]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:77) ~[tomcat-embed-core-11.0.24.jar!/:na]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:535) ~[tomcat-embed-core-11.0.24.jar!/:na]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[tomcat-embed-core-11.0.24.jar!/:na]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:86) ~[tomcat-embed-core-11.0.24.jar!/:na]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:71) ~[tomcat-embed-core-11.0.24.jar!/:na]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:347) ~[tomcat-embed-core-11.0.24.jar!/:na]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:406) ~[tomcat-embed-core-11.0.24.jar!/:na]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:71) ~[tomcat-embed-core-11.0.24.jar!/:na]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:1307) ~[tomcat-embed-core-11.0.24.jar!/:na]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:2036) ~[tomcat-embed-core-11.0.24.jar!/:na]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:74) ~[tomcat-embed-core-11.0.24.jar!/:na]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:949) ~[tomcat-embed-core-11.0.24.jar!/:na]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:483) ~[tomcat-embed-core-11.0.24.jar!/:na]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:74) ~[tomcat-embed-core-11.0.24.jar!/:na]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
+
+2026-11-10T00:03:31.879+07:00  INFO 12568 --- [baitapSession11] [http-nio-127.0.0.1-auto-1-exec-8] c.e.b.controller.PatientController       : Nhận yêu cầu tìm bệnh nhân: ExceptionCheck-ec17bd9a49cb420989ae3a5718f67d69
+2026-11-10T00:03:31.886+07:00 DEBUG 12568 --- [baitapSession11] [http-nio-127.0.0.1-auto-1-exec-8] org.hibernate.orm.core                   : HHH006588: Opening session [tenant=null]
+2026-11-10T00:03:31.896+07:00 DEBUG 12568 --- [baitapSession11] [http-nio-127.0.0.1-auto-1-exec-8] org.hibernate.orm.core                   : HHH006583: Beginning transaction
+2026-11-10T00:03:31.898+07:00 TRACE 12568 --- [baitapSession11] [http-nio-127.0.0.1-auto-1-exec-8] com.medical.service.PatientService       : Tìm kiếm bệnh nhân với name=ExceptionCheck-ec17bd9a49cb420989ae3a5718f67d69
+2026-11-10T00:03:32.353+07:00 DEBUG 12568 --- [baitapSession11] [http-nio-127.0.0.1-auto-1-exec-8] org.hibernate.SQL                        : 
+    select
+        p1_0.id,
+        p1_0.age,
+        p1_0.name 
+    from
+        patients p1_0 
+    where
+        upper(p1_0.name) like upper(?) escape '\'
+2026-11-10T00:03:32.375+07:00 DEBUG 12568 --- [baitapSession11] [http-nio-127.0.0.1-auto-1-exec-8] com.medical.service.PatientService       : Tìm thấy 0 bệnh nhân
+2026-11-10T00:03:32.375+07:00 DEBUG 12568 --- [baitapSession11] [http-nio-127.0.0.1-auto-1-exec-8] org.hibernate.orm.core                   : HHH006584: Committing transaction
+2026-11-10T00:03:32.379+07:00 DEBUG 12568 --- [baitapSession11] [http-nio-127.0.0.1-auto-1-exec-8] org.hibernate.session.metrics            : HHH000401: Logging session metrics:
+	536500 ns acquiring 1 JDBC connections
+	0 ns releasing 0 JDBC connections
+	90800 ns preparing 1 JDBC statements
+	3124300 ns executing 1 JDBC statements
+	0 ns executing 0 JDBC batches
+	0 ns performing 0 second-level cache puts
+	0 ns performing 0 second-level cache hits
+	0 ns performing 0 second-level cache misses
+	0 ns executing 0 flushes (flushing a total of 0 entities and 0 collections)
+	189700 ns executing 1 pre-partial-flushes
+	225100 ns executing 1 partial-flushes (flushing a total of 0 entities and 0 collections)
+
